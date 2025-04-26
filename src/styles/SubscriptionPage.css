@@ -1,0 +1,52 @@
+.subscription-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #e9f5ec;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subscription-form label {
+    margin: 10px 0 5px;
+    color: #1b5e20;
+    font-weight: bold;
+  }
+  
+  .subscription-form input,
+  .subscription-form select {
+    padding: 10px;
+    border: 1px solid #81c784;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+  
+  .subscription-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #43a047;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #388e3c;
+  }
+  

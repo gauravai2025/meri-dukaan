@@ -1,0 +1,13 @@
+# Allow all search engines to crawl the main site
+User-agent: *
+Allow: /
+
+# Block private or unnecessary pages from search engines
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /profile/
+Disallow: /settings/
+
+# Sitemap helps search engines find your pages faster
+Sitemap: https://yourwebsite.com/sitemap.xml
